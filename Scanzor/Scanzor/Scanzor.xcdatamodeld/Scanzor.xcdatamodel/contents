@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SavedBarcode" representedClassName="SavedBarcode" syncable="YES" codeGenerationType="class">
+        <attribute name="barcodeOrigin" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="SavedCreature" representedClassName="SavedCreature" syncable="YES" codeGenerationType="class">
+        <attribute name="barcodeOrigin" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="dateCaptured" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tint" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SpeciesInfo" representedClassName="SpeciesInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="capturedCount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SavedBarcode" positionX="-63" positionY="18" width="128" height="60"/>
+        <element name="SavedCreature" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="SpeciesInfo" positionX="-63" positionY="18" width="128" height="90"/>
+    </elements>
+</model>
